@@ -1,0 +1,12 @@
+<library path="lib/libcartesian_panda">
+  <class name="cartesian_panda/CartesianController" type="cartesian_panda::CartesianController" base_class_type="controller_interface::ControllerBase">
+    <description>
+      A controller that executes a short motion based on cartesian input to demonstrate correct usage
+    </description>
+  </class>
+  <class name="cartesian_panda/CartesianVelocityController" type="cartesian_panda::CartesianVelocityController" base_class_type="controller_interface::ControllerBase">
+    <description>
+      A controller that executes a short motion based on cartesian velocity input to demonstrate correct usage
+    </description>
+  </class>
+</library>
