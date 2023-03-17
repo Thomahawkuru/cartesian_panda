@@ -1,0 +1,7 @@
+<library path="lib/libcartesian_panda">
+  <class name="cartesian_panda/CartesianImpedanceController" type="cartesian_panda::CartesianImpedanceController" base_class_type="controller_interface::ControllerBase">
+    <description>
+      A controller that executes a short motion based on cartesian impedance input to demonstrate correct usage
+    </description>
+  </class>
+</library>

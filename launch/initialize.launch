@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<launch>
+  <arg name="robot_ip" default="192.168.0.100"/>
+  <arg name="load_gripper" default="true" />
+
+  <include file="$(find rosbridge_server)/launch/rosbridge_websocket.launch">
+    <param name="port" value="9090"/>
+  </include>
+
+  <include file="$(find cartesian_panda)/launch/publish_transform.launch"> </include>
+
+  <include file="$(find cartesian_panda)/launch/gripper.launch"> </include>
+
+</launch>
