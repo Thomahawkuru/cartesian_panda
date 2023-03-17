@@ -1,6 +1,6 @@
 # cartesian_panda
 package for controlling the panda robot with a cartesian impedance controller while also publishing end-effector transform and robot state. 
-Used during a teleoperation experiment in the following package
+Used during a teleoperation experiment in the following project: (link)
 
 
 Requires:
